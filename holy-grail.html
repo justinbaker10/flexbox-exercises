@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Holy Grail</title>
+        <style>
+            .box {
+                display: flex;
+                flex-direction: column;
+                border: 10px solid black;
+                border-radius: 5px;
+                max-width: 800px;
+            }
+            .main {
+                flex-direction: row;
+                display: flex;
+                text-align: center;
+                border-top: 10px solid black;
+                border-bottom: 10px solid black;
+            }
+            .header {
+                background-color: rgb(131, 202, 255);
+                text-align: center;
+            }
+            .menu {
+                background-color: rgb(204, 153, 204);
+                align-items: flex-start;
+                min-width: 150px;
+                border-right: 10px solid black;
+            }
+            ul {
+                list-style-type: none;
+                text-align: left;
+            }
+            .content {
+                background-color: rgb(255, 204, 204);
+                justify-content: center;
+            }
+            .content > p {
+                text-align: left;
+            }
+            .ad {
+                background-color: rgb(204, 153, 204);
+                align-items: flex-end;
+                min-width: 150px;
+                border-left: 10px solid black;
+            }
+            .footer {
+                background-color: rgb(131, 202, 255);
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <div class="header">
+                <h1>HEADER</h1>
+            </div>
+            <div class="main">
+                <div class="menu">
+                    <h3>MENU</h3>
+                    <ul>
+                        <li><h3>ITEM 1</h3></li>
+                        <li><h3>ITEM 2</h3></li>
+                        <li><h3>ITEM 3</h3></li>
+                        <li><h3>ITEM 4</h3></li>
+                        <li><h3>ITEM 5</h3></li>
+                    </ul>
+                </div>
+                <div class="content">
+                    <h2>CONTENT</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="ad">
+                    <h1>AD</h1>
+                    <h1>AD</h1>
+                </div>
+            </div>
+            <div class="footer">
+            <h1>FOOTER</h1>
+            </div>
+        </div>
+    </body>
+</html>
